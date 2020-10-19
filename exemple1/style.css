@@ -1,0 +1,45 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    height: 100px;
+    background-color: blue;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5%;
+}
+
+ul {
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+li {
+    margin-left: 2.5em;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+/*
+a:hover{
+    color: purple;
+    text-decoration: underline;
+}
+
+a:active{
+    background-color: #0FA;
+}
+*/
+/*
+li::first-letter {
+    color: red;
+    font-size: 130%;
+}
+*/
